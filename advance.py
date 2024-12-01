@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 
 def play_sound():
     # Play a simple beep sound (Windows only)
-    frequency = 1000  
+    frequency = 2000
     duration = 1000   # 1 second
     winsound.Beep(frequency, duration)
 
